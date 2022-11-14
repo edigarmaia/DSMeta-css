@@ -1,0 +1,43 @@
+/*Importando as fontes pelo google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,700&display=swap');
+/*Definindo que qualquer elemento use o que tiver dentro do escopo*/
+*{
+    font-family: roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    color: #ffffff;
+    background-color: #000000;
+}
+a, a:hover, a:visited{
+    color: unset;/*mantém a cor padrão*/
+    text-decoration: none;/*tira o sublinhado*/
+}
+header{
+    
+    height: 220px;
+    background: linear-gradient(180deg, #102347 0%, #181818 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*estilizando o bloco do logo*/
+.dsmeta-logo-container{
+    display: flex;/*um na frente do outro*/
+    flex-direction: column;/*direção do display flex*/
+    align-items: center; /*alinha os itens ao centro*/
+}
+.dsmeta-logo-container img{
+    width: 235px;
+}
+.dsmeta-logo-container h1{
+    margin-top: 15px;
+    font-size: 24px;
+}
+.dsmeta-logo-container p{
+    font-size: 14px;
+    font-weight: 300;
+}
